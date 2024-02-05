@@ -27,7 +27,7 @@ public class Application01 {
         int inum2 = 20;
 
         System.out.println("========================= 정수값비교 ==========================");
-        System.out.println("inum1 과 inum2가 같은지 비교  :" +(inum1 == inum2) );
+        System.out.println("inum1 과 inum2가 같은지 비교  :" +     (inum1 == inum2) );
         System.out.println("inum1 과 inum2가 같지 않은지 비교   :" +(inum1 != inum2) );
 
         System.out.println("========================= 구분선 ==========================");
@@ -61,6 +61,12 @@ public class Application01 {
 //        System.out.println("bool2 과 bool2가 크거나 같은지 비교 " + (bool1 >= bool2));
 //        System.out.println("bool2 과 bool2가 작은지 비교 " +       (bool1 < bool2));
 //        System.out.println("bool2 과 bool2가 작거나 같은지 비교 " + (bool1 <= bool2));
+
+        int a = 1;
+        int b = 2;
+
+        System.out.println(a != b);
+
 
 
         /* 목차 4 문자열 값 비교*/
