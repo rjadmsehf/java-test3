@@ -45,4 +45,31 @@ public class Application01 {
 
 
     }
+
+    public int getInta() {
+        return inta;
+    }
+
+    int getA() {
+       return inta;
+    }
+
+    protected int getB() {
+        return inta;
+    }
+
+    private int getC() {
+        return inta;
+    }
+
+    int inta;
+
+    //객체 생성할 때 type이 String이고, 변수명이 arg인 파라미터를 하나 받음 >> 생성자
+    public Application01(int arg) {
+        this.inta = arg; // arg를 받아서 클래스에 있는 type이 String이고, 변수명은 string인 변수에 arg를 대입
+    }
+
+    public int appMethod() {
+        return inta; // string를 반환해줌
+    }
 }
